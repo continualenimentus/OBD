@@ -108,7 +108,7 @@ def show_config():
   
   radio_writing_mode = customtkinter.StringVar(value=config_data["writing_mode"])
   popup.title('Configuration')
-  popup.iconbitmap("./Check.ico")
+  # popup.iconbitmap("./Check.ico")
 
   radio_prepend = customtkinter.CTkRadioButton(master=popup, text=language_data['prepend'], variable=radio_writing_mode, value="prepend")
   prepen_desc = customtkinter.CTkLabel(master=popup, text=language_data['desc_prepend'], fg_color="white", text_color="black", corner_radius=10, padx=5, pady=5)
@@ -333,7 +333,7 @@ def show_config():
 root = customtkinter.CTk()
 menuBar = tkinter.Menu(root)
 root.title(language_data["title"])
-root.iconbitmap("./Check.ico")
+# root.iconbitmap("./Check.ico")
 
 buttonColor = "#212121" if root['bg'] == "gray10" else "#E5E5E5"
 textColor = "#D6D6D6" if root['bg'] == "gray10" else '#04127B'
