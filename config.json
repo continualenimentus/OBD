@@ -1,0 +1,14 @@
+{
+    "language": "English",
+    "filePath": "C:/Users/racet/Downloads",
+    "fileName": "myfile_{yy}-{mm}-{dd}",
+    "languages": [
+        {
+            "name": "en",
+            "value": "English",
+            "source": "./languages/en.json"
+        }
+    ],
+    "writing_mode": "override",
+    "writeTemplate": "- [ ] {text} :)\n"
+}

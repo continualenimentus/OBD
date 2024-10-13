@@ -1,0 +1,23 @@
+{
+    "title": "Add Note",
+    "placeholder": "Insert value or text",
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "configure": "Configure",
+    "config_screen": "Configure the settings for the plugin",
+    "prepend": "Prepend",
+    "append": "Append",
+    "override": "Override",
+    "file_path": "Select the location where you would like the text to be written to",
+    "current_file": "Current file is writting at: ",
+    "pick_folder": "Pick Folder",
+    "file_name": "Enter the name of the file you would like to write to.",
+    "save": "Save",
+    "no_file_path": "No file path selected.",
+    "name_entry_info": "  In order to add the date/time to the name of the file,\n use brackets ({ and }) to indicate following this example: \n my_file_{yyyy}-{mm}-{dd} {HH}:{MM}:{SS} \nwill become my_file_2024-09-14 22:49:21.\nIndividual parts of this will work.",
+    "template_entry_info": "Escape characters and normal mark down syntax will work.\n Please indicate where the text should go by using {text}.\n A complete list of escape characters and .md syntax\n can be found online.  Escape characters of an already \nsaved template will not be displayed in the box.",
+    "template": "Enter the template for the text you would like to write to the file.",
+    "desc_prepend": "Prepend will put the text you enter at the beginning of the file\n and push the rest down.",
+    "desc_append": "Append will put the text you enter at the end of the file.",
+    "desc_override": "Override will replace the contents of the file\n with the text you enter."
+}
