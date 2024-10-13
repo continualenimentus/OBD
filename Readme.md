@@ -78,23 +78,22 @@ This guide/demonstration assumes the user is using Obsidian and AutoHotKey
 1. Install Python version 3.12.3 or later
 2. Download the code for OBD
 3. Move the file outside of the downloads folder(unknown bugs have been found when trying to do it from the downloads folder)
-3. Open a command prompt where the files have been downloaded
-4. Run the following command in the command prompt that was just opened `npm install customtkinter` (this will install the visual library)
-5. Create a shortcut to OBD.py
+4. Open a command prompt where the files have been downloaded
+5. Run the following command in the command prompt that was just opened `pip install customtkinter` (this will install the visual library)
 6. Download AutoHotKey(an application that allows the setting of custom hotkey combinations)
 7. Install AutoHotKey
 8. Add AutoHotKey to your startup applications(this step is not necessary but if not done the user will have to manually start it every 
-time their computer is turned off)
- Add a custom hotkey calling to the shortcut created at step 5
- Restart the AutoHotKey script
- Try the hotkey combination(should work, a window will be brought up)
- Click the configure button
- Set the folder as the place in your obsidian vault where you want the application to add the notes to
- Set the name of the file that should be created/edited.
+time their computer is turned off, script OBD.ps1 should work)
+9. Add a custom hotkey (example in OBD.ahk)
+10. Restart the AutoHotKey script
+11. Try the hotkey combination(should work, a window will be brought up)
+12. Click the configure button
+13. Set the folder as the place in your obsidian vault where you want the application to add the notes to
+14. Set the name of the file that should be created/edited.
     By adding the date here, you can have a note a day or if you want every one to be its individual note you can add only the time to the file name
- Set the writing template(keep in mind the application writes a .md file so any .md syntax will show as such)
- Set the writing mode
- Click save
+15. Set the writing template(keep in mind the application writes a .md file so any .md syntax will show as such)
+16. Set the writing mode
+17. Click save
  The application should now be fully functionnal.  You can use the RETURN/ENTER key to write the text or the ESCAPE key to exit the application
     The main color of the application is the theme of your computer.
    
