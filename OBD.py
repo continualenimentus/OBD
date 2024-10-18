@@ -389,8 +389,11 @@ def addToObsidian():
             myfile.seek(0, 0)
             myfile.write(text + current_text)
         elif config_data["writing_mode"] == "append":
-            myfile.seek(0, 2)
-            myfile.write(text)
+            lines = myfile.readlines()
+            lines.append("\n")
+            lines.append(text)
+            myfile.seek(0)
+            myfile.writelines(lines)
     if config_data["writing_mode"] == "override":
         with open(file_to_write, "w") as myfile:
             myfile.write(text)
